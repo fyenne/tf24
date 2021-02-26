@@ -3,3 +3,5 @@
 /feb_kaggle/home-data-for-ml-course
 *.csv
 .csv
+.xml
+*.xml
