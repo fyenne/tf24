@@ -4,6 +4,13 @@
 *.csv
 .csv
 .xml
+
 *.xml
+
+/.idea
+
 .DS_Store
 *.DS_Store
+/*.DS_Store
+
+/*.xml
