@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1a6373ba-a3a7-49c8-8572-ac76ac3fbea7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feb_kaggle_note/comp_TabularPlayground.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/feb_kaggle_note/comp_TabularPlayground.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mar_kaggle/mar.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mar_kaggle/mar.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +90,8 @@
       <workItem from="1614757940418" duration="519000" />
       <workItem from="1614758474509" duration="2512000" />
       <workItem from="1614761642266" duration="3569000" />
+      <workItem from="1614780647659" duration="2324000" />
+      <workItem from="1614782978317" duration="731000" />
     </task>
     <servers />
   </component>
