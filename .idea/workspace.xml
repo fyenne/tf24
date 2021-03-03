@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a6373ba-a3a7-49c8-8572-ac76ac3fbea7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mar_kaggle/mar.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tf24_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tf24_test.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic_kaggle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/titanic_kaggle/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1o5cmOmamTYkTiDGEC1HT7vohR7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -86,6 +87,7 @@
       <workItem from="1613989828081" duration="23000" />
       <workItem from="1614508266461" duration="1517000" />
       <workItem from="1614518692965" duration="447000" />
+      <workItem from="1614757940418" duration="519000" />
     </task>
     <servers />
   </component>
