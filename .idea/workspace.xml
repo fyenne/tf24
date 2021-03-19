@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a6373ba-a3a7-49c8-8572-ac76ac3fbea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/feb_kaggle_note/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tf24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tf24.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql_py/sql.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feb_kaggle_note/comp_TabularPlayground.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/feb_kaggle_note/comp_TabularPlayground.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic_kaggle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/titanic_kaggle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic_kaggle/titanic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/titanic_kaggle/titanic.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mar_kaggle/mar.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mar_kaggle/mar.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -177,6 +173,7 @@
       <workItem from="1614997041957" duration="1562000" />
       <workItem from="1615000191204" duration="2548000" />
       <workItem from="1615009764614" duration="337000" />
+      <workItem from="1616140224176" duration="1411000" />
     </task>
     <servers />
   </component>
