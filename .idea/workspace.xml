@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a6373ba-a3a7-49c8-8572-ac76ac3fbea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sql_py/sql.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mar_kaggle/mar.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mar_kaggle/mar.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="1a6373ba-a3a7-49c8-8572-ac76ac3fbea7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,6 +170,7 @@
       <workItem from="1615000191204" duration="2548000" />
       <workItem from="1615009764614" duration="337000" />
       <workItem from="1616140224176" duration="1411000" />
+      <workItem from="1616398187683" duration="17000" />
     </task>
     <servers />
   </component>
