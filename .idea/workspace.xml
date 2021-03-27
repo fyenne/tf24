@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1a6373ba-a3a7-49c8-8572-ac76ac3fbea7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_py/sql.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sql_py/sql.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_py/sql.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sql_py/pytorch.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +175,8 @@
       <workItem from="1616140224176" duration="1411000" />
       <workItem from="1616398187683" duration="17000" />
       <workItem from="1616770232660" duration="957000" />
-      <workItem from="1616805650465" duration="2218000" />
+      <workItem from="1616805650465" duration="3414000" />
+      <workItem from="1616837800353" duration="1486000" />
     </task>
     <servers />
   </component>
