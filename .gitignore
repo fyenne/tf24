@@ -4,7 +4,7 @@
 *.csv
 .csv
 .xml
-
+.zip
 *.xml
 
 /.idea
@@ -14,3 +14,4 @@
 /*.DS_Store
 
 /*.xml
+/*.zip
