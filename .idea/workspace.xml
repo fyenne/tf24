@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a6373ba-a3a7-49c8-8572-ac76ac3fbea7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_py/sql.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sql_py/pytorch.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lateNCAA/stg2_wm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lateNCAA/stg2_wm.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +178,9 @@
       <workItem from="1616770232660" duration="957000" />
       <workItem from="1616805650465" duration="3414000" />
       <workItem from="1616837800353" duration="1486000" />
+      <workItem from="1617162127755" duration="639000" />
+      <workItem from="1617163235771" duration="1272000" />
+      <workItem from="1617182152729" duration="18000" />
     </task>
     <servers />
   </component>
