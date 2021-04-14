@@ -57,6 +57,7 @@ library(AppliedPredictiveModeling)
 pp_hpc <- preProcess(df_train, 
                      method = c("center", "scale", "YeoJohnson"))
 transformed <- predict(pp_hpc, newdata = df_train)
+write.csv(transformed, "./fin_train.csv", row.names = F)
 ```
 
 ```{r}
@@ -113,9 +114,9 @@ print(Sys.time() - start)
 ```
 
 ```{r}
-train(    x = transformed,
+rf_md = train(x = transformed,
     y = target[,1],
-    method = "randomforrests",
+    method = "rf",
     metric = "RMSE") 
 ```
 
