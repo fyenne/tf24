@@ -13,7 +13,6 @@ library(tidyverse)
 ```{r}
 train <- read.csv("./train_data.csv")
 target <- read.csv("./target.csv")
-
 ```
 
 ```{r cars}
@@ -149,5 +148,10 @@ train_data_my_stg2 = cbind(train_data_my, train_label_my)
 # train_label_my
 write.csv(train_data_my_stg2 , "./sb/train_w_stg2.csv", row.names = F)
 write.csv(test_my , "./sb/test_w_stg2.csv", row.names = F)
+```
+
+#--------------------------------------------
+```{r}
+# testdata
 ```
 
