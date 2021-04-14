@@ -121,13 +121,13 @@ lr_md = train(x = transformed,
     lambda1 = .1,
     lambda2 = .1,
     verbose = T) 
-
-rf_md = train(x = transformed,
-    y = target[,1],
-    method = "ranger",
-    metric = "RMSE",
-    mtrees = c(200, 400, 600),
-    verbose = T) 
+# 
+# rf_md = train(x = transformed,
+#     y = target[,1],
+#     method = "ranger",
+#     metric = "RMSE",
+#     mtrees = c(200, 400, 600),
+#     verbose = T) 
 # 1+1
 ```
 
