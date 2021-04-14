@@ -114,10 +114,21 @@ print(Sys.time() - start)
 ```
 
 ```{r}
+lr_md = train(x = transformed,
+    y = target[,1],
+    method = "penalized",
+    metric = "RMSE",
+    lambda1 = .1,
+    lambda2 = .1,
+    verbose = T) 
+
 rf_md = train(x = transformed,
     y = target[,1],
-    method = "rf",
-    metric = "RMSE") 
+    method = "ranger",
+    metric = "RMSE",
+    mtrees = c(200, 400, 600),
+    verbose = T) 
+# 1+1
 ```
 
 ```{r}
