@@ -18,10 +18,10 @@ target <- read.csv("./target.csv")
 ```{r cars}
 head(train)
 # train['X18']
-train['X88'] = lapply(train['X18'], FUN = substr, start = 1, stop = 5)
+# train['X88'] = lapply(train['X18'], FUN = substr, start = 1, stop = 5)
 # train = train[,! names(train) %in% 'X18']
 # train = train[,! names(train) %in% 'X18']
-train = train[,! names(train) %in% c('X18', 'X21', 'X22', 'X23')]
+
 ```
 
 ```{r}
@@ -38,9 +38,10 @@ train = train[,! names(train) %in% c('X18', 'X21', 'X22', 'X23')]
 # no fast dummies
 
 ```{r}
+train = train[,! names(train) %in% c('X18', 'X21', 'X22', 'X23')]
 df_train = train
-df_train = df_train[ , !names(df_train) %in% c("X13","X88")]
-str(lapply(df_train, class)) # 8 9 24
+df_train = df_train[ , !names(df_train) %in% c("X13")]
+# str(lapply(df_train, class)) # 8 9 24
 df_train$X8  = as.factor(df_train$X8)
 df_train$X9  = as.factor(df_train$X9)
 df_train$X24 = as.factor(df_train$X24)
@@ -48,15 +49,24 @@ levels(df_train$X8)  = c(0,1)
 levels(df_train$X9)  = c(0,1)
 levels(df_train$X24) = c(0,1)
 # dim(df_train)
-str(df_train)
+cat_col = c(3, 5, 6, 7, 8, 9, 10, 15, 17)
+cat_col = lapply("X", paste0, cat_col)[[1]]
+cat_col = strsplit(cat_col, " ")
+cat_col %>% as.array()
+# names(df_train)
+df_train = fastDummies::dummy_columns(df_train, select_columns = cat_col)
+# str(df_train)
+# target[,1]
+
 ```
 
 ```{r}
-library(AppliedPredictiveModeling)
-pp_hpc <- preProcess(df_train, 
-                     method = c("center", "scale", "YeoJohnson"))
-transformed <- predict(pp_hpc, newdata = df_train)
-write.csv(transformed, "./fin_train.csv", row.names = F)
+# depracate
+# library(AppliedPredictiveModeling)
+# pp_hpc <- preProcess(df_train, 
+#                      method = c("center", "scale", "YeoJohnson"))
+# transformed <- predict(pp_hpc, newdata = df_train)
+write.csv(df_train, "./fin_train.csv", row.names = F)
 ```
 
 ```{r}
@@ -146,12 +156,49 @@ write.csv(sub2, "./sub_stg2.csv", row.names = F)
 ```{r}
 train_data_my_stg2 = cbind(train_data_my, train_label_my)
 # train_label_my
-write.csv(train_data_my_stg2 , "./sb/train_w_stg2.csv", row.names = F)
-write.csv(test_my , "./sb/test_w_stg2.csv", row.names = F)
+# write.csv(train_data_my_stg2 , "./sb/train_w_stg2.csv", row.names = F)
+# write.csv(test_my , "./sb/test_w_stg2.csv", row.names = F)
 ```
 
 #--------------------------------------------
 ```{r}
 # testdata
+ 
+test = read.csv("./test_data.csv")
+```
+
+```{r}
+test = test[,! names(test) %in% c('X18', 'X21', 'X22', 'X23')]
+df_test = test
+df_test = df_test[ , !names(df_test) %in% c("X13")]
+# str(lapply(df_test, class)) # 8 9 24
+df_test$X8  = as.factor(df_test$X8)
+df_test$X9  = as.factor(df_test$X9)
+df_test$X24 = as.factor(df_test$X24)
+levels(df_test$X8)  = c(0,1)
+levels(df_test$X9)  = c(0,1)
+levels(df_test$X24) = c(0,1)
+names(df_test)
+cat_col = c(3, 5, 6, 7, 8, 9, 10, 15, 17)
+cat_col = lapply("X", paste0, cat_col)[[1]]
+
+df_test = fastDummies::dummy_columns(df_test, select_columns = cat_col)
+
+# library(AppliedPredictiveModeling)
+# pp_hpc2 <- preProcess(df_test, 
+#                      method = c("center", "scale", "YeoJohnson"))
+# transformed2 <- predict(pp_hpc2, newdata = df_test)
+write.csv(df_test, "./fin_test.csv", row.names = F)
+
+```
+
+#--------------------------------------------
+sub
+
+```{r}
+sample_sub = read.csv("./data/sub.csv")
+out1 = read.csv("./out_lgbm.csv")
+sample_sub$价格 = out1$X0
+write.csv(sample_sub, "./data/sub1_lgbm.csv", row.names = F)
 ```
 
