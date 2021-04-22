@@ -209,4 +209,9 @@ df_train %>% filter(df_train$X1 == 1)
 .libPaths()
 file.edit('~/.Renviron')
 ```
+```{r}
+diamonds
+# ggplot(diamonds) + aes(x =color, y = price) + geom_point()
+table()
+```
 
