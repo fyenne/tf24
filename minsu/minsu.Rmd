@@ -202,3 +202,10 @@ sample_sub$价格 = out1$X0
 write.csv(sample_sub, "./data/sub1_lgbm.csv", row.names = F)
 ```
 
+```{r}
+library(tidyverse)
+df_train %>% filter(df_train$X1 == 1)
+
+.libPaths()
+```
+
