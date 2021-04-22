@@ -16,5 +16,6 @@
 /*.xml
 /*.zip
 .Rproj.user
-minsu/.Rhistory
-minsu/.RData
+minsu/*.Rhistory
+minsu/*.RData
+minsu/*.RData
