@@ -210,8 +210,14 @@ df_train %>% filter(df_train$X1 == 1)
 file.edit('~/.Renviron')
 ```
 ```{r}
-diamonds
-# ggplot(diamonds) + aes(x =color, y = price) + geom_point()
-table()
+# diamonds
+# # ggplot(diamonds) + aes(x =color, y = price) + geom_point()
+# table()
+ 
+
+dfff = data.frame(diamonds$carat)
+dfff
+
+?geom_smooth()
 ```
 
