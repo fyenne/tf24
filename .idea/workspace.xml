@@ -4,7 +4,10 @@
     <list default="true" id="1a6373ba-a3a7-49c8-8572-ac76ac3fbea7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lateNCAA/stg2_wm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lateNCAA/stg2_wm.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lateNCAA/ncaam-predictions-v2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lateNCAA/ncaam-predictions-v2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mar_kaggle/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/mar_kaggle/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mar_kaggle/tps-pycaret2-automl-regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mar_kaggle/tps-pycaret2-automl-regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minsu/.Rhistory" beforeDir="false" afterPath="$PROJECT_DIR$/minsu/.Rhistory" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,6 +184,8 @@
       <workItem from="1617162127755" duration="639000" />
       <workItem from="1617163235771" duration="1272000" />
       <workItem from="1617182152729" duration="18000" />
+      <workItem from="1619535767276" duration="193000" />
+      <workItem from="1619536280268" duration="49000" />
     </task>
     <servers />
   </component>
