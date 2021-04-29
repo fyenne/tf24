@@ -35,3 +35,6 @@ minsu/.Rhistory
 minsu/.RData
 *.xml
 *.xml
+titanic_kaggle/.idea/
+
+/titanic_kaggle/.idea
