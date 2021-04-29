@@ -33,3 +33,5 @@
 /minsu/.RData
 minsu/.Rhistory
 minsu/.RData
+*.xml
+*.xml
