@@ -40,3 +40,5 @@ titanic_kaggle/.idea/
 /titanic_kaggle/.idea
 *.xml
 lateNCAA/.idea/.name
+*.xml
+.idea/.name
